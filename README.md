@@ -18,7 +18,7 @@ Why this plan: it is fully agent-executable (email + files, no account access, n
 node main.ts
 ```
 
-`main.ts` writes the 264-character plan to `/output/entry.txt` (UTF-8, deterministic, no network). Two runs produce byte-identical output.
+`main.ts` writes the 264-character plan to `/output/entry.txt` (UTF-8, deterministic, no network). Two runs produce byte-identical output; the entry was rebuilt in a fresh session under recording 2.
 
 ---
 

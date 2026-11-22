@@ -8,6 +8,7 @@ const ENTRY =
 // The gate reads /output/entry.txt. Never delete the output directory
 // itself; only create it if missing and write into it. No network, no
 // environment reads, no dynamic code: the text below is a constant.
+// Rebuilt in a fresh session under recording 2, same 264-char plan.
 const outDir = "/output";
 mkdirSync(outDir, { recursive: true });
 writeFileSync(`${outDir}/entry.txt`, ENTRY, "utf8");
